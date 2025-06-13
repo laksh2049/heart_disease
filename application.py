@@ -21,7 +21,7 @@ def index():
 @app.route("/predictdata",methods=['GET','POST'])
 def predict_datapoint():
     if request.method=="POST":
-        Temperature=float (request. form.get ('Temperature'))
+        
 
         age = float(request. form.get ('age'))
 
